@@ -38,6 +38,13 @@ h2 {
     color: rgba(23,36,72,1);
     margin: 0;
 }
+p {
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    color: rgba(140,140,140,1);
+    width: 80%;
+    margin: 20px auto auto auto;
+}
 button {
     padding: 16px 32px;
     background-color: rgba(88,155,252,1);
@@ -54,6 +61,7 @@ button {
     width: 290px;
     padding-right: 10px;
     margin-right: 25px;
+    margin-left: auto;
     border-right: rgba(244,215,51,1) solid 1.5px;
     text-align: right;
 }
@@ -156,10 +164,10 @@ button {
 }
 .subtitle {
     font-family: 'Lora', serif;
-    font-size: 20px;
+    font-size: 25px;
     color: rgba(23,36,72,1);
-    width: 260px;
-    margin: 30px 0 auto auto;
+    width: 90%;
+    margin: 60px 0 20px auto;
     border-bottom: rgba(244,215,51,1) solid 1.5px;
 }
 ul {
@@ -169,7 +177,7 @@ ul {
 }
 li {
     list-style: none;
-    margin-top: 15px;
+    margin-top: 20px;
     display: flex;
 }
 li img {
@@ -186,6 +194,8 @@ li img {
     font-family: 'Merriweather', serif;
     font-size: 12px;
     color: rgba(140,140,140,1);
+    margin: 5px auto auto 0;
+
 }
 .cards-row {
     width: 90%;
@@ -206,7 +216,7 @@ li img {
     font-size: 12px;
 }
 .faixa {
-    margin-top: 40px;
+    margin-top: 60px;
     background: #d1bdb9;
     background-image: url("macaquinho.jpg");
     width: 80%;
@@ -233,12 +243,11 @@ li img {
     font-family: 'Merriweather', serif;
 }
 .preço {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .preço p {
     font-family: 'Merriweather', serif;
-    font-size: 16px;
-
+    font-size: 20px;
 }
 .preço hr {
     background: red;
@@ -250,8 +259,12 @@ li img {
 }
 .preco-final {
     font-family: 'Lora', serif;
-    font-size: 40px !important;
+    font-size: 50px !important;
     color: rgba(88,155,252,1);
+}
+.preço button {
+    width: 70%;
+    height: 40%;
 }
 .obs {
     font-family: 'Merriweather', serif;
