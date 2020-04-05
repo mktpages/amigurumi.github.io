@@ -1,0 +1,197 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.brand {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    font-weight: bolder;
+    color: rgba(23,36,72,1);
+    margin: 15px auto auto 15px;
+    text-align: left;
+}
+#banner {
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
+    text-align: center;
+}
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 32px;
+    font-weight: bolder;
+    color: rgba(23,36,72,1);
+    margin-bottom: 15px;
+    margin-left: 25px;
+    text-align: left;
+}
+h2 {
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    color: rgba(23,36,72,1);
+    margin: 0;
+}
+#banner_box {
+    width: 250px;
+    padding-left: 10px;
+    margin-left: 25px;
+    border-left: rgba(244,215,51,1) solid 1.5px;
+    text-align: left;
+}
+#banner_box p {
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+#banner img {
+    margin-top: 10px;
+    width: 130px;
+}
+button {
+    padding: 16px 32px;
+    background-color: rgba(88,155,252,1);
+    border-radius: 35px;
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    color: rgba(255,255,255,0.9);
+    border: 0;
+    margin: 20px auto 0 auto;
+    max-width: 200px;
+    line-height: 20px;
+}
+.recuo {
+    margin-top: -25px;
+}
+.arrow {
+    width: 40px;
+    height: 40px;
+    margin: 15px auto auto auto;
+    border-radius: 50%;
+    background: #f6deda;
+    box-shadow:  20px 20px 60px #d1bdb9,
+                -20px -20px 60px #fffffb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow img {
+    width: 20px;
+    margin: auto;
+}
+.p-center {
+    text-align: center;
+    width: 80%;
+    margin: 40px auto auto auto;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    color: rgba(140,140,140,1);
+    z-index: 99;
+}
+.slider {
+    margin: 40px auto 60px auto;
+}
+.slider img {
+    height: 220px;
+    width: auto;
+    margin: auto;
+}
+.cards {
+    width: 80%;
+    margin: 20px auto 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.card {
+    margin-bottom: 25px;
+    padding: 16px 32px;
+    border-radius: 10px;
+    background: #f6deda;
+    box-shadow:  20px 50px 60px #d1bdb9,
+                -20px 20px 60px #fffffb;
+}
+.p {
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: rgba(23,36,72,1);
+}
+.quadro-amarelo {
+    width: 180px;
+    height: 120px;
+    background: rgba(244,215,51,1);
+}
+.cima {
+    margin: 0 auto -100px 0;
+}
+.urso {
+    width: 100%;
+    text-align: right;
+}
+#urso {
+    width: 180px;
+    margin: 0 30px auto auto;
+}
+.baixo {
+    margin: -50px 0 auto auto;
+    height: 100px;
+}
+#btn-urso {
+    margin: -150px auto auto -50px;
+}
+.subtitle {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    color: rgba(23,36,72,1);
+    width: 260px;
+    margin-right: 0;
+    margin-left: auto;
+    border-bottom: rgba(244,215,51,1) solid 1.5px;
+}
+ul {
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 90%;
+}
+li {
+    list-style: none;
+    margin-top: 15px;
+    display: flex;
+}
+li img {
+    height: auto;
+    margin-right: 5px;
+}
+.list-right {
+}
+.list-right h2 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.list-right p {
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+    color: rgba(140,140,140,1);
+}
+
+
+img {
+    width: 30px;
+}
+{
+font-family: 'Lora', serif; /*title*/
+font-family: 'Merriweather', serif; /*Other*/
+color: rgba(246,222,218,1); /*background*/
+color: rgba(88,155,252,1); /*button*/
+color: rgba(23,36,72,1); /*background & title*/
+color: rgba(244,215,51,1); /*details*/
+color: rgba(140,140,140,1); /*text*/
+}

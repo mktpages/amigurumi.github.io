@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Permite controlar de onde os recursos são carregados. Coloque o mais cedo possível na <head>, pois a tag
-    aplica-se apenas aos recursos que são declarados depois dele. -->
+    aplica-se apenas aos recursos que são declarados depois dele.
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+     -->
 
     <title>Adoro Amigurumi</title>
 
-    <!-- Set the base URL for all relative URLs within the document -->
+    <!-- Set the base URL for all relative URLs within the document
     <base href="https://mktpages.github.io/amigurumi.github.io/">
+     -->
 
     <!-- ========== SEO ========== -->
     <!-- Controlar o comportamento do rastreamento e indexação de mecanismos de pesquisa -->
@@ -33,60 +35,201 @@
     <meta property="og:description" content="12 vídeo aulas para iniciantes de como fazer Amigurumis + 1.000 receitas de personagens famosos, princesas, bonecas, animais, ursinhos e muito mais.">
     <meta property="og:image" content="metatag.jpg">
 
-    <!-- Mas é melhor manter o css aqui dentro do HTML na tag script -->
-    <style>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Merriweather:wght@300&display=swap" rel="stylesheet">
 
-    </style>
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <link href="slick.css" rel="stylesheet">
+    <link href="slick-theme.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 </head>
 <body>
+<div class="header">
+    <p class="brand">
+        <b>ADORO AMIGURUMI</b>
+    </p>
+</div>
+<div id="banner">
+    <h1>Aprenda a fazer Amigurumis</h1>
+    <div id="banner_box">
+        <p id="title">
+            do zero, com vídeo aulas para iniciantes.
+            <br><br>
+            Você aprende a ler receitas.
+            <br><br>
+            E tem acesso a mais de 1.000 receitas <u>PARA SEMPRE</u>.
+        </p>
+    </div>
+    <div class="header">
+        <img src="amigurumi_ovelha.png">
+    </div>
+    <div class="header">
+        <a href="http://mon.net.br/p1aiq" target="_blank">
+            <button class="recuo">
+                <b>SIM!<br>Quero comprar!</b>
+            </button>
+        </a>
+    </div>
+</div>
+<div class="arrow">
+    <img src="down-arrow.png">
+</div>
+<div class="header">
+    <p class="p-center">
+        Pra você que não sabe fazer crochê.
+        <br><br>
+        Pra você que não sabe ler as receitas de crochê.
+        <br><br>
+        Pra você que pode ter, em um só lugar, mais de 1.000 receitas de Amigurumis, todas em português e revisadas
+        sem nenhum erro.
+        <br><br>
+        Pra você que quer fazer parte de uma comunidade de milhares de mulheres que só falam de crochê e Amigurumis.
+    </p>
+</div>
+<section class="center slider">
+    <div><img src="ursinho.jpeg" alt="amigurumi ursinho de crochê" /></div>
+    <div><img src="amigurumi%20bichinhos.jpeg" alt="amigurumi bichinhos de crochê" /></div>
+    <div><img src="amigurumi%20boneca.jpeg" alt="amigurumi boneca de crochê"/></div>
+    <div><img src="amigurumi%20bonecas.jpeg" alt="amigurumi bonecas de crochê" /></div>
+    <div><img src="amigurumi%20cachorrao.jpeg" alt="amigurumi cachorro de crochê" /></div>
+    <div><img src="amigurumi%20coelhos.jpeg" alt="amigurumi coelhos de crochê" /></div>
+    <div><img src="amigurumi%20masha.jpeg" alt="amigurumi masha e o urso de crochê" /></div>
+    <div><img src="amigurumi%20raposa.jpg" alt="amigurumi raposa de crochê" /></div>
+    <div><img src="amigurumi%20sereia%20jasmin.jpg" alt="amigurumi sereia de crochê" /></div>
+    <div><img src="amigurumi%20stitch.jpeg" alt="amigurumi stitch de crochê" /></div>
+</section>
+<div class="header">
+    <p class="p-center">
+        Pagando apenas uma vez, você tem acesso a todo esse material, para sempre.
+    </p>
+</div>
+<div class="header">
+    <a href="http://mon.net.br/p1aiq" target="_blank">
+        <button>Posso pagar 10x de R$8,19</button>
+    </a>
+</div>
+<div class="header">
+    <p class="p-center">
+        Neste material você vai ter acesso a:
+    </p>
+</div>
+<div class="header cards">
+    <div class="card">
+        <p class="p">
+            Vídeo aulas ensinando os pontos básicos, pra você que não sabe fazer crochê.
+        </p>
+    </div>
+    <div class="card">
+        <p class="p">
+            Se você só sabe ler gráficos ou fazer crochê com vídeo aulas, também vai aprender a fazer crochê
+            lendo as receitas.
+        </p>
+    </div>
+    <div class="card">
+        <p class="p">
+            Mais de 1.000 receitas de Amigurumis, todas em português e revisadas, sem nenhum erro na receita.
+            <br>
+            <u>Modelos exclusivos!</u>
+        </p>
+    </div>
+    <div class="card">
+        <p class="p">
+            Todo mês você ganha novas receitas em português, revisadas, sem precisar pagar mais nada por isso.
+        </p>
+    </div>
+    <div class="card">
+        <p class="p">
+            Você entra para um grupo secreto de alunas, pra trocar dicas, experiências e pedir ajuda quando precisar.
+        </p>
+    </div>
+</div>
+<div class="header">
+    <div class="quadro-amarelo cima"></div>
+    <div class="header urso"><img id="urso" src="ursinho.jpeg"></div>
+    <div class="quadro-amarelo baixo"></div>
 
-<h1>Aprenda a fazer Amigurumis do zero e tenha acesso a mais de 1.000 receitas.</h1>
+        <a href="" target="_blank">
+            <button id="btn-urso">Quero o pacote vitalício.</button>
+        </a>
 
-<p>Aprenda centenas de modelos exclusivos de amigurumi, separamos os melhores modelos passo a passo para você
-    Modelos Exclusivos, tenha acesso a 1000 receitas exclusivas todas passo a passo em português.</p>
-
-<p>VideoAulas explicativos, Aprenda fazer Amigurumi do zero passo a passo</p>
-
-<p>Atualizações de receitas, Novas receitas todo mês.</p>
-
-<p>Grupo de Alunas, Grupo criado pra trocar dicas e experiências.</p>
-
-<button>SIM! QUERO COMPRAR</button>
-<p>AdoroAmigurumi</p>
-
-<p>Modelos feitos por nossas alunas</p>
-
-<p>Mais de 2.657 Alunas já estão aprendendo do ZERO a dominar a ARTE AMIGURUMI,
-    Comece hoje mesmo a fazer os melhores modelos de amigurumi.</p>
-<p>O que você vai aprender ?</p>
-
-<p>1000 MODELOS DE AMIGURUMI:</p>
-
-<p>Você vai ter acesso aos melhores modelos, Bonecas,bichinhos,animais,chaveiros, personagens de desenhos etc.</p>
+</div>
+<div class="header">
+    <p class="p-center">Mais de <font color="#f4d733">2.657</font> alunas já estão aprendendo do ZERO a dominar a ARTE AMIGURUMI.
+        <br><br>
+        Comece hoje mesmo a fazer nossos modelos exclusivo.
+    </p>
+</div>
 
 
-<h2>VIDEOSAULAS EXPLICATIVOS:</h2>
 
-<p>Se você é uma total iniciante não se preocupe, te ensinamos do zero a começar a arte amigurumi</p>
+<br><br>
+<div class="header">
+    <p class="subtitle">O que você vai aprender?</p>
+</div>
+<ul>
+    <li>
+        <div class="list-left">
+            <img src="shield.png">
+        </div>
+        <div class="list-right">
+            <h2>1000 MODELOS DE AMIGURUMI:</h2>
+            <p>Você vai ter acesso aos melhores modelos: bonecas, bichinhos, animais, chaveiros,
+                personagens de
+                desenhos...</p>
+        </div>
+    </li>
+    <li>
+        <div class="list-left">
+            <img src="shield.png">
+        </div>
+        <div class="list-right">
+            <h2>VIDEOSAULAS EXPLICATIVAS:</h2>
+            <p>Se você é uma total iniciante, não se preocupe. Te ensinamos do zero a começar a arte Amigurumi.</p>
+        </div>
+    </li>
+    <li>
+        <div class="list-left">
+            <img src="shield.png">
+        </div>
+        <div class="list-right">
+            <h2>TÉCNICAS DE CABELOS:</h2>
+            <p>Você vai aprender diversos modelos de cabelos para mudar o visual das suas bonecas ou bichinhos.</p>
+        </div>
+    </li>
+    <li>
+        <div class="list-left">
+            <img src="shield.png">
+        </div>
+        <div class="list-right">
+            <h2>NOVAS RECEITAS:</h2>
+            <p>Você vai ter atualizações de receitas exclusivas todo mês.</p>
+        </div>
+    </li>
+    <li>
+        <div class="list-left">
+            <img src="shield.png">
+        </div>
+        <div class="list-right">
+            <h2>APRENDA A LAVAR SUAS PEÇAS:</h2>
+            <p>Aprenda de forma correta, como lavar as suas peças de Amigurumi sem danifica-la.</p>
+        </div>
+    </li>
+    <li>
+        <div class="list-left">
+            <img src="shield.png">
+        </div>
+        <div class="list-right">
+            <h2>GRUPO DE ALUNAS:</h2>
+            <p>Você vai ter suporte 24horas dentro do nosso grupo. O intuito é ajudar uma as outras trocando dúvidas e
+                expêriencias.</p>
+        </div>
+    </li>
+</ul>
 
-<h2>Técnicas de Cabelos:</h2>
 
-<p>Você vai aprender diversos modelos de cabelos para mudar o visual da sua boneca ou bichinhos.</p>
+<br><br><br><br><br><br><br><br><br><br>
 
-<h2>NOVAS RECEITAS:</h2>
-
-<p>Você vai ter atualizações de receitas todo mês, iremos adicionar novas receitas exclusivas .</p>
-
-<h2>APRENDA A LAVAR SUAS PEÇAS:</h2>
-
-<p>Aprenda de forma correta como lavar as suas peças de amigurumi sem danificá-la.</p>
-
-<h2>GRUPO DE ALUNAS:</h2>
-
-<p>Você vai ter suporte 24horas dentro do nosso Grupo, o intuito é ajudar uma as outras trocando dúvidas e
-    expêriencias.</p>
-
-<h2>Como lavar</h2>
 
 <p>Comprando ainda HOJE você leva de BRINDE</p>
 
@@ -135,7 +278,7 @@
 <img src="amigurumi_pgto_diners.jpg">
 <img src="amigurumi_pgto_hiper.png">
 <img src="amigurumi_pgto_elo.png">
-<img src="../amigurumi_pgto_boleto.png">
+<img src="amigurumi_pgto_boleto.png">
 
 
 <img src="amigurumi_pgto_selossl.png">
@@ -145,5 +288,19 @@
 <a href="https://www.adoroamigurumi.com.br/termos" target="_blank">Termos de uso</a>
 <a href="https://www.adoroamigurumi.com.br/politica-de-privacidade" target="_blank">Política de privacidade</a>
 
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick.js" charset="utf-8"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".center").slick({
+            dots: true,
+            infinite: true,
+            centerMode: true,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        });
+    });
+</script>
 </body>
 </html>
