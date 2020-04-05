@@ -20,12 +20,12 @@
 #banner {
     width: 100%;
     height: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     text-align: center;
 }
 h1 {
     font-family: 'Lora', serif;
-    font-size: 32px;
+    font-size: 35px;
     font-weight: bolder;
     color: rgba(23,36,72,1);
     margin-bottom: 15px;
@@ -38,22 +38,6 @@ h2 {
     color: rgba(23,36,72,1);
     margin: 0;
 }
-#banner_box {
-    width: 250px;
-    padding-left: 10px;
-    margin-left: 25px;
-    border-left: rgba(244,215,51,1) solid 1.5px;
-    text-align: left;
-}
-#banner_box p {
-    font-family: 'Merriweather', serif;
-    font-size: 14px;
-    letter-spacing: 1px;
-}
-#banner img {
-    margin-top: 10px;
-    width: 130px;
-}
 button {
     padding: 16px 32px;
     background-color: rgba(88,155,252,1);
@@ -63,11 +47,34 @@ button {
     color: rgba(255,255,255,0.9);
     border: 0;
     margin: 20px auto 0 auto;
-    max-width: 200px;
+    max-width: 250px;
     line-height: 20px;
 }
-.recuo {
-    margin-top: -25px;
+#banner_box {
+    width: 290px;
+    padding-right: 10px;
+    margin-right: 25px;
+    border-right: rgba(244,215,51,1) solid 1.5px;
+    text-align: right;
+}
+#banner_box p {
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.btn-ovelha {
+    margin-top: -8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-ovelha img {
+    margin: 0 -10px auto 15px;
+    width: 130px;
+    text-align: right;
+}
+.btn-ovelha .recuo {
+    margin: 80px 15px auto -10px;
 }
 .arrow {
     width: 40px;
@@ -88,7 +95,7 @@ button {
 .p-center {
     text-align: center;
     width: 80%;
-    margin: 40px auto auto auto;
+    margin: 20px auto auto auto;
     font-family: 'Merriweather', serif;
     font-size: 16px;
     color: rgba(140,140,140,1);
@@ -145,15 +152,14 @@ button {
     height: 100px;
 }
 #btn-urso {
-    margin: -150px auto auto -50px;
+    margin: -170px auto auto -50px;
 }
 .subtitle {
     font-family: 'Lora', serif;
     font-size: 20px;
     color: rgba(23,36,72,1);
     width: 260px;
-    margin-right: 0;
-    margin-left: auto;
+    margin: 30px 0 auto auto;
     border-bottom: rgba(244,215,51,1) solid 1.5px;
 }
 ul {
@@ -181,10 +187,90 @@ li img {
     font-size: 12px;
     color: rgba(140,140,140,1);
 }
+.cards-row {
+    width: 90%;
+    margin: 30px auto auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card-row {
+    width: calc((90% / 2) - 10px);
+    padding: 15px;
+}
+.card-row img {
+    margin-bottom: 10px;
+    width: 50px;
+}
+.card-row .p {
+    font-size: 12px;
+}
+.faixa {
+    margin-top: 40px;
+    background: #d1bdb9;
+    background-image: url("macaquinho.jpg");
+    width: 80%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.quadro-rosa {
+    background: rgba(244,215,51,.4);
+    height: 150px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -30px 0 auto auto;
+    text-align: center;
+}
+.quadro-rosa h3 {
+    font-size: 25px;
+    margin: auto;
+    color: rgba(23,36,72,1);
+    font-family: 'Merriweather', serif;
+}
+.preço {
+    margin-top: 20px;
+}
+.preço p {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
 
+}
+.preço hr {
+    background: red;
+    border: none;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    margin: -10px auto auto calc((100% / 2) - 5px);
+}
+.preco-final {
+    font-family: 'Lora', serif;
+    font-size: 40px !important;
+    color: rgba(88,155,252,1);
+}
+.obs {
+    font-family: 'Merriweather', serif;
+    font-size: 10px !important;
+    color: rgba(140,140,140,1);
+    margin-top: 10px;
+}
+.seguranca {
+    margin-top: 10px;
+}
+.seguranca .ssl {
+    margin-top: 10px;
+    width: 130px;
+}
 
 img {
-    width: 30px;
+    width: 40px;
+    margin: auto;
+    vertical-align: center;
 }
 {
 font-family: 'Lora', serif; /*title*/
