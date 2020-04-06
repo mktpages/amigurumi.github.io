@@ -79,6 +79,12 @@ button {
     margin: 0;
     width: 100%;
 }
+#banner_box .imgs {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    margin: 0;
+}
 .btn-ovelha {
     margin-top: -8px;
     display: flex;
@@ -148,7 +154,7 @@ button {
     width: 100%;
 }
 .quadro-amarelo {
-    width: 180px;
+    width: 65%;
     height: 120px;
     background: rgba(244,215,51,1);
 }
@@ -315,6 +321,129 @@ img {
     margin: auto;
     vertical-align: center;
 }
+
+@media (min-width: 580px) and (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    .list-right h2 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 22px;
+    }
+    .list-right p {
+        font-size: 16px;
+    }
+    .p {
+        font-size: 22px;
+    }
+    .card-row .p {
+        font-size: 16px;
+    }
+    button {
+        font-size: 22px;
+        line-height: 30px;
+        max-width: 500px;
+    }
+    .subtitle {
+        font-size: 35px;
+        padding: 5px;
+    }
+    #banner h1 {
+        margin-left: 50px;
+    }
+    #banner_box {
+        width: auto;
+        padding: 0 0 0 10px;
+        margin: 0 auto 0 50px;
+        text-align: left;
+        border-right: none;
+        border-left: rgba(244,215,51,1) solid 1.5px;
+        display: flex;
+        align-items: center;
+    }
+    #banner_box #title {
+        font-size: 22px;
+    }
+    #banner_box .imgs {
+        margin: 30px;
+        display: flex;
+
+    }
+    #banner_box .imgs img {
+        height: 200px;
+        width: auto;
+        transform: rotate(-35deg);
+    }
+    .imgs2 {
+        height: 180px !important;
+        transform: rotate(20deg) !important;
+    }
+    .btn-ovelha img {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+    .btn-ovelha a {
+        flex-grow: 1;
+    }
+    .btn-ovelha .recuo {
+        margin: 40px auto;
+    }
+    .cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .card {
+        width: 40%;
+        margin: 25px;
+    }
+    .card:nth-child(2){
+        order: 2;
+    }
+    .card:nth-child(3){
+        order: 1;
+    }
+    .card:nth-child(4){
+        order: 2;
+    }
+    .card:nth-child(5){
+        order: 3;
+    }
+    .urso {
+        text-align: center;
+    }
+    #urso {
+        text-align: center;
+        margin: 0 auto;
+    }
+    #btn-urso {
+        margin: 0 auto 60px auto;
+    }
+    .faixa {
+        height: 300px;
+    }
+    .quadro-rosa {
+        width: 55%;
+    }
+    .obs {
+        font-size: 16px;
+    }
+    .ti {
+        display: inline-block;
+    }
+    .ti img {
+        margin: 0;
+    }
+}
+
 {
 font-family: 'Lora', serif; /*title*/
 font-family: 'Merriweather', serif; /*Other*/
