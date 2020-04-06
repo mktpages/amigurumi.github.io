@@ -368,11 +368,14 @@ img {
     }
     #banner_box #title {
         font-size: 22px;
+        width: auto;
     }
     #banner_box .imgs {
         margin: 30px;
         display: flex;
-
+        visibility: visible;
+        width: auto;
+        height: auto;
     }
     #banner_box .imgs img {
         height: 200px;
