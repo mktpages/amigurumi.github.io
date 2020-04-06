@@ -57,6 +57,13 @@ button {
     max-width: 250px;
     line-height: 20px;
 }
+.p {
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: rgba(23,36,72,1);
+    margin: auto;
+}
 #banner_box {
     width: 290px;
     padding-right: 10px;
@@ -69,6 +76,8 @@ button {
     font-family: 'Merriweather', serif;
     font-size: 15px;
     letter-spacing: 1px;
+    margin: 0;
+    width: 100%;
 }
 .btn-ovelha {
     margin-top: -8px;
@@ -133,11 +142,10 @@ button {
     box-shadow:  20px 50px 60px #d1bdb9,
                 -20px 20px 60px #fffffb;
 }
-.p {
-    font-family: 'Merriweather', serif;
-    font-size: 14px;
-    letter-spacing: 0.5px;
-    color: rgba(23,36,72,1);
+.card .p {
+    margin: 0;
+    text-align: center;
+    width: 100%;
 }
 .quadro-amarelo {
     width: 180px;
@@ -192,10 +200,10 @@ li img {
 }
 .list-right p {
     font-family: 'Merriweather', serif;
-    font-size: 12px;
+    font-size: 13px;
     color: rgba(140,140,140,1);
-    margin: 5px auto auto 0;
-
+    margin: 5px 0 0;
+    width: 100%;
 }
 .cards-row {
     width: 90%;
@@ -213,7 +221,8 @@ li img {
     width: 50px;
 }
 .card-row .p {
-    font-size: 12px;
+    font-size: 13px;
+
 }
 .faixa {
     margin-top: 60px;
@@ -267,10 +276,9 @@ li img {
     height: 40%;
 }
 .obs {
-    font-family: 'Merriweather', serif;
     font-size: 10px !important;
     color: rgba(140,140,140,1);
-    margin-top: 10px;
+    margin-top: 12px;
 }
 .seguranca {
     margin-top: 10px;
@@ -279,7 +287,29 @@ li img {
     margin-top: 10px;
     width: 130px;
 }
-
+.ti {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 300px;
+    margin: 10px auto auto;
+}
+.ti img {
+    margin: 0 15px 0 0;
+}
+.ti .p {
+    width: auto;
+    margin: 0;
+}
+.direitos {
+    margin: 30px auto;
+    text-align: center;
+}
+.direitos a {
+    margin: 10px auto;
+}
 img {
     width: 40px;
     margin: auto;
